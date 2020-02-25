@@ -48,4 +48,9 @@ form .btn {
   margin-bottom: 2rem;
   text-align: center;
 }
-/*# sourceMappingURL=index.css.map */
+ 
+ @media (max-width: 500px){
+     .content {
+         margin: 1rem;
+     }
+ }

@@ -24,7 +24,8 @@ html {
 
 .box {
   background-color: #fdfdff;
-  padding: 1rem;
+    margin: 1rem;
+    padding:1rem;
 }
 
 .box .logo {
@@ -53,4 +54,9 @@ html {
   width: 50%;
   margin: 0 auto;
 }
-/*# sourceMappingURL=result.css.map */
+
+@media (max-width: 500px){
+    .box .logout a {
+        font-size: .8rem;
+    }
+}
